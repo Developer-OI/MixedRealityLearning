@@ -73,7 +73,7 @@ public class PartAssemblyDemo : MonoBehaviour
                     objectToPlace.localScale = locationToPlace.localScale;
 
                     //Set parent to target location so that when rocket launches, parts go with it
-                    objectToPlace.SetParent(locationToPlace.parent);
+                    //objectToPlace.SetParent(locationToPlace.parent);
 
                     //Play audio snapping sound
                     //TODO: Need to take into account whether manipulation handler is currently being held
@@ -86,6 +86,12 @@ public class PartAssemblyDemo : MonoBehaviour
                     isSnapped = true;
                 }
 
+            }
+
+            if (isSnapped)
+            {
+                objectToPlace.position = locationToPlace.position;
+                objectToPlace.rotation = locationToPlace.rotation;
             }
 
             //if (isSnapped && Vector3.Distance(objectToPlace.position, locationToPlace.position) > farDistance)
