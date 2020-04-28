@@ -65,30 +65,39 @@ public class PartAssemblyDemo : MonoBehaviour
 
             if (!isSnapped && Vector3.Distance(objectToPlace.position, locationToPlace.position) > 0.01 && Vector3.Distance(objectToPlace.position,locationToPlace.position) < nearDistance)
             {        
+                if (!isManipulating)
+                {
+                    //Place object at target location
+                    objectToPlace.position = locationToPlace.position;
+                    objectToPlace.rotation = locationToPlace.rotation;
+                    objectToPlace.localScale = locationToPlace.localScale;
 
-                //Place object at target location
-                objectToPlace.position = locationToPlace.position;
-                objectToPlace.rotation = locationToPlace.rotation;
+                    //Set parent to target location so that when rocket launches, parts go with it
+                    //objectToPlace.SetParent(locationToPlace.parent);
 
-                //Set parent to target location so that when rocket launches, parts go with it
-                objectToPlace.SetParent(locationToPlace.parent);
-
-                //Play audio snapping sound
-                //TODO: Need to take into account whether manipulation handler is currently being held
-                //if (!audioSource.isPlaying)
+                    //Play audio snapping sound
+                    //TODO: Need to take into account whether manipulation handler is currently being held
+                    //if (!audioSource.isPlaying)
                     audioSource.Play();
 
-                //turn off tool tips
-                toolTipObject.SetActive(false);        
+                    //turn off tool tips
+                    //toolTipObject.SetActive(false);        
 
-                //isSnapped = true;          
+                    isSnapped = true;
+                }
 
             }
 
-            if (isSnapped && Vector3.Distance(objectToPlace.position, locationToPlace.position) > farDistance)
+            if (isSnapped)
             {
-                isSnapped = false;
+                objectToPlace.position = locationToPlace.position;
+                objectToPlace.rotation = locationToPlace.rotation;
             }
+
+            //if (isSnapped && Vector3.Distance(objectToPlace.position, locationToPlace.position) > farDistance)
+            //{
+            //    isSnapped = false;
+            //}
         }
     }
 }
