@@ -174,7 +174,7 @@ GameObject:
   - component: {fileID: 442026896776402350}
   - component: {fileID: 2872595075714193334}
   m_Layer: 0
-  m_Name: wheel front
+  m_Name: FrontWheelRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -253,7 +253,7 @@ GameObject:
   - component: {fileID: 5709380516675845210}
   - component: {fileID: 1313253201512504306}
   m_Layer: 0
-  m_Name: wheel middle
+  m_Name: MiddleWheelRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -461,7 +461,7 @@ GameObject:
   - component: {fileID: 160024582107553692}
   - component: {fileID: 6426644920031897488}
   m_Layer: 0
-  m_Name: wheel back
+  m_Name: BackWheelRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
