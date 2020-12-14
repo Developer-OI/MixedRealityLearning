@@ -166,6 +166,7 @@ GameObject:
   - component: {fileID: 46669111}
   - component: {fileID: 46669115}
   - component: {fileID: 46669116}
+  - component: {fileID: 46669117}
   m_Layer: 0
   m_Name: Quad
   m_TagString: Untagged
@@ -358,6 +359,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonTextObject: {fileID: 1971884972}
+  RoomEffectGroup: {fileID: -7735990022130545787, guid: 9df6beb7497f37e4eb5d7566aabab4ca,
+    type: 2}
+  MasterGroup: {fileID: 24300002, guid: 9df6beb7497f37e4eb5d7566aabab4ca, type: 2}
+--- !u!114 &46669117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46669110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e3cda840bbb9945802ff61455a9893, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RoomEffectSendPowerCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: -29.929407
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 100
+      value: -29.929413
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &217111385
 GameObject:
   m_ObjectHideFlags: 0
