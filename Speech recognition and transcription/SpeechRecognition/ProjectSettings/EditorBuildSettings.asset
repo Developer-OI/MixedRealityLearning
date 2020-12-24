@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/AzureSpeechServices.unity
+    guid: b0acbacc522737d48a09d8577dbf1877
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 93cca101db9683141a17c5e413c8c4e3,
       type: 2}
