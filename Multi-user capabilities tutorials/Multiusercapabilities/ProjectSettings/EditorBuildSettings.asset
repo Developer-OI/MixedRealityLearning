@@ -4,5 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/PhotonNetworking.unity
+    guid: d5764093a510e8848b73a92d4d01443f
+  m_configObjects:
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: bb819bd3de0e291409f96c6cb9a9fb7a,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4513ef12ad597dd4ca87f6bf89898102,
+      type: 2}

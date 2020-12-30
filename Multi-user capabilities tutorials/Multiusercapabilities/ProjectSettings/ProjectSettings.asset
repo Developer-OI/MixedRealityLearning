@@ -125,7 +125,9 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 0.1
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: -1294145071363073608, guid: bb819bd3de0e291409f96c6cb9a9fb7a, type: 2}
+  - {fileID: -3327950502582923797, guid: 4513ef12ad597dd4ca87f6bf89898102, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -602,11 +604,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: Photon
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: DefaultCompany
+  metroCertificateIssuer: DefaultCompany
+  metroCertificateNotAfter: 002aa73c9dfdd701
   metroApplicationDescription: Template_3D
   wsaImages: {}
   metroTileShortName: 
