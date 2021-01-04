@@ -149,14 +149,7 @@ public class LunarcomIntentRecognizer : MonoBehaviour
             {
                 try
                 {
-                    Debug.Log(unityWebRequest.downloadHandler.text);
-                    AnalysedQuery analysedQuery = JsonUtility.FromJson<AnalysedQuery>(unityWebRequest.downloadHandler.text);
-                    Debug.Log(analysedQuery.query);
-                    Debug.Log(analysedQuery.prediction.entities.Action[0]);
-                    Debug.Log(analysedQuery.prediction.entities.Target[0]);
-                    Debug.Log(analysedQuery.prediction.topIntent);   
-                    
-                 
+                    AnalysedQuery analysedQuery = JsonUtility.FromJson<AnalysedQuery>(unityWebRequest.downloadHandler.text);                                     
                     UnpackResults(analysedQuery);
                 }
                 catch (Exception exception)
