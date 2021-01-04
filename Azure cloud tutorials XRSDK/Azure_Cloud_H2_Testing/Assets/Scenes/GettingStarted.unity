@@ -221,6 +221,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9157887926618156860, guid: 375369510d9c8fd428ed10a1f6bef485,
         type: 3}
+      propertyPath: connectionString
+      value: DefaultEndpointsProtocol=https;AccountName=azurecloudh2;AccountKey=byYsBStUOtBahzf3Jg/HtcBSY5BHnDjqASwOlAvoiH8nKPTj5tSqCEpe6U4HDh+/eh1akmBj9lSLbZJbawpWvA==;EndpointSuffix=core.windows.net
+      objectReference: {fileID: 0}
+    - target: {fileID: 9157887926618156860, guid: 375369510d9c8fd428ed10a1f6bef485,
+        type: 3}
       propertyPath: onDataManagerReady.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1417070608}
