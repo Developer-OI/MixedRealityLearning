@@ -109,23 +109,25 @@ public class LunarcomIntentRecognizer : MonoBehaviour
     [Serializable]
     class AnalysedQuery
     {
-        public TopScoringIntentData topScoringIntent = default;
-        public EntityData[] entities = default;
+        public string query = default;
+        public TopScoringIntentData prediction = default;
+        //public EntityData[] entities = default;
         ///public string query;
     }
 
     [Serializable]
     class TopScoringIntentData
     {
-        public string intent = default;
+        public string topIntent = default;
+        public EntityData entities = default;
         ///public float score;
     }
 
     [Serializable]
     class EntityData
     {
-        public string entity = default;
-        public string type = default;
+        public string[] Action = default;
+        public string[] Target = default;
         ///public int startIndex;
         ///public int endIndex;
         ///public float score;
@@ -147,8 +149,14 @@ public class LunarcomIntentRecognizer : MonoBehaviour
             {
                 try
                 {
+                    Debug.Log(unityWebRequest.downloadHandler.text);
                     AnalysedQuery analysedQuery = JsonUtility.FromJson<AnalysedQuery>(unityWebRequest.downloadHandler.text);
-
+                    Debug.Log(analysedQuery.query);
+                    Debug.Log(analysedQuery.prediction.entities.Action[0]);
+                    Debug.Log(analysedQuery.prediction.entities.Target[0]);
+                    Debug.Log(analysedQuery.prediction.topIntent);   
+                    
+                 
                     UnpackResults(analysedQuery);
                 }
                 catch (Exception exception)
@@ -164,32 +172,36 @@ public class LunarcomIntentRecognizer : MonoBehaviour
 
     private void UnpackResults(AnalysedQuery aQuery)
     {
-        string topIntent = aQuery.topScoringIntent.intent;
+        string topIntent = aQuery.prediction.topIntent;
 
         Dictionary<string, string> entityDic = new Dictionary<string, string>();
 
-        foreach (EntityData ed in aQuery.entities)
-        {
-            entityDic.Add(ed.type, ed.entity);
-        }
+        //foreach (EntityData ed in aQuery.prediction.entities)
+        //{
+        //    entityDic.Add(ed.type, ed.entity);
+        //}
 
-        switch (aQuery.topScoringIntent.intent)
+        switch (topIntent)
         {
             case "PressButton":
-                string actionToTake = null;
-                string targetButton = null;
+                //string actionToTake = null;
+                //string targetButton = null;
 
-                foreach (var pair in entityDic)
-                {
-                    if (pair.Key == "Target")
-                    {
-                        targetButton = pair.Value;
-                    }
-                    else if (pair.Key == "Action")
-                    {
-                        actionToTake = pair.Value;
-                    }
-                }
+                string actionToTake = aQuery.prediction.entities.Action[0];
+                string targetButton = aQuery.prediction.entities.Target[0];
+
+
+                //foreach (var pair in entityDic)
+                //{
+                //    if (pair.Key == "Target")
+                //    {
+                //        targetButton = pair.Value;
+                //    }
+                //    else if (pair.Key == "Action")
+                //    {
+                //        actionToTake = pair.Value;
+                //    }
+                //}
                 ProcessResults(targetButton, actionToTake);
                 break;
             default:
@@ -205,7 +217,7 @@ public class LunarcomIntentRecognizer : MonoBehaviour
             case "launch":
                 CompleteButtonPress(actionToTake, targetButton, LaunchButton);
                 break;
-            case "reset":
+            case "reset":             
                 CompleteButtonPress(actionToTake, targetButton, ResetButton);
                 break;
             case "hint":
