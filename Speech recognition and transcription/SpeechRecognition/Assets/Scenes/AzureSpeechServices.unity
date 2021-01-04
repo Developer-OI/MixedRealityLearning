@@ -437,6 +437,16 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4060913975483433106, guid: 7702396e31292dc4ea1410d4d0bb0383,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1713978
+      objectReference: {fileID: 0}
+    - target: {fileID: 4060913975483433106, guid: 7702396e31292dc4ea1410d4d0bb0383,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.034953553
+      objectReference: {fileID: 0}
     - target: {fileID: 4170649105837342982, guid: 7702396e31292dc4ea1410d4d0bb0383,
         type: 3}
       propertyPath: m_Enabled
@@ -576,6 +586,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.y
       value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7001720546397253954, guid: 7702396e31292dc4ea1410d4d0bb0383,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.17934126
       objectReference: {fileID: 0}
     - target: {fileID: 7007374786927182360, guid: 7702396e31292dc4ea1410d4d0bb0383,
         type: 3}
@@ -989,7 +1004,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bf3e71ff76a64ce6a63dc8529f51307, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpeechServiceAPIKey: 5c1bb3fca4fe47018d79f1e29821bde7
+  SpeechServiceAPIKey: deba77962528441ba0a5ac266de3a2d6
   SpeechServiceRegion: westus2
   terminal: {fileID: 1709862643}
   connectionLight: {fileID: 1709862642}
@@ -1010,7 +1025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abf44f7da64451b4796d24a0f6e6c40b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  luisEndpoint: https://mrtk-tutorials-azurespeech.cognitiveservices.azure.com/luis/prediction/v3.0/apps/62384115-ff76-4a03-9f43-651118de70e8/slots/production/predict?subscription-key=6cc65292d0e54701aa41728a5ffced4c&verbose=true&show-all-intents=true&log=true&query=YOUR_QUERY_HERE
+  luisEndpoint: https://mrtk-language-understanding.cognitiveservices.azure.com/luis/prediction/v3.0/apps/f4d6006c-4c01-418d-8ee4-3e32d68be572/slots/production/predict?subscription-key=8001f8f109814128b9239b9efd84c01c&verbose=true&show-all-intents=true&log=true&query=
   HintsButton: {fileID: 334214146}
   ResetButton: {fileID: 334214145}
   LaunchButton: {fileID: 334214144}
