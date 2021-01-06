@@ -258,22 +258,22 @@ PrefabInstance:
     - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
         type: 3}
       propertyPath: apiKey
-      value: 8221d76f7cd6424cb2e717498825fe70
+      value: 8c2115513ef343c28e324d4354d29b97
       objectReference: {fileID: 0}
     - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
         type: 3}
       propertyPath: projectId
-      value: a9c607d7-88bf-4129-b590-4a512fc186a3
+      value: 2f2911f4-2101-4ba3-b145-67fd19de128f
       objectReference: {fileID: 0}
     - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
         type: 3}
       propertyPath: resourceBaseEndpoint
-      value: https://westus2.api.cognitive.microsoft.com/
+      value: https://southeastasia.api.cognitive.microsoft.com/
       objectReference: {fileID: 0}
     - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
         type: 3}
       propertyPath: azureResourceGroupName
-      value: Azure_Cloud_Tutorial
+      value: 'Azure_Cloud '
       objectReference: {fileID: 0}
     - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
         type: 3}
@@ -283,7 +283,7 @@ PrefabInstance:
     - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
         type: 3}
       propertyPath: cognitiveServiceResourceName
-      value: New-Azure_Cloud_H2_Group
+      value: Azure_Cloud_Resource
       objectReference: {fileID: 0}
     - target: {fileID: 5042052743728363742, guid: 7b590829eaeacff49b45f5a93cfff72d,
         type: 3}
