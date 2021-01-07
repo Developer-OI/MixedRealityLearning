@@ -222,7 +222,7 @@ PrefabInstance:
     - target: {fileID: 9157887926618156860, guid: 375369510d9c8fd428ed10a1f6bef485,
         type: 3}
       propertyPath: connectionString
-      value: DefaultEndpointsProtocol=https;AccountName=azurecloudh2;AccountKey=byYsBStUOtBahzf3Jg/HtcBSY5BHnDjqASwOlAvoiH8nKPTj5tSqCEpe6U4HDh+/eh1akmBj9lSLbZJbawpWvA==;EndpointSuffix=core.windows.net
+      value: DefaultEndpointsProtocol=https;AccountName=azurecloudh2;AccountKey=u1lQdzgk2xdVecx6FDgQWQOm5oxrSwyxU1Ej/fh6DPcZjDwOlUhlqXxrQ/Alq4pHrzyEDJWkd7WvmncF6EcRlg==;EndpointSuffix=core.windows.net
       objectReference: {fileID: 0}
     - target: {fileID: 9157887926618156860, guid: 375369510d9c8fd428ed10a1f6bef485,
         type: 3}
@@ -258,12 +258,12 @@ PrefabInstance:
     - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
         type: 3}
       propertyPath: apiKey
-      value: 8c2115513ef343c28e324d4354d29b97
+      value: 1b111d65b7494ec7acf37509bfdcdfaa
       objectReference: {fileID: 0}
     - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
         type: 3}
       propertyPath: projectId
-      value: 2f2911f4-2101-4ba3-b145-67fd19de128f
+      value: 004db204-c36d-4f3e-8168-c52595c9973f
       objectReference: {fileID: 0}
     - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
         type: 3}
@@ -273,7 +273,7 @@ PrefabInstance:
     - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
         type: 3}
       propertyPath: azureResourceGroupName
-      value: 'Azure_Cloud '
+      value: azurecloudh2
       objectReference: {fileID: 0}
     - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
         type: 3}
@@ -283,7 +283,7 @@ PrefabInstance:
     - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
         type: 3}
       propertyPath: cognitiveServiceResourceName
-      value: Azure_Cloud_Resource
+      value: Azure_Cloud_H2
       objectReference: {fileID: 0}
     - target: {fileID: 5042052743728363742, guid: 7b590829eaeacff49b45f5a93cfff72d,
         type: 3}
