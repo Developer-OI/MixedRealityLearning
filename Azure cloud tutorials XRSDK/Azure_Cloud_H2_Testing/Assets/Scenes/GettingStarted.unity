@@ -222,7 +222,7 @@ PrefabInstance:
     - target: {fileID: 9157887926618156860, guid: 375369510d9c8fd428ed10a1f6bef485,
         type: 3}
       propertyPath: connectionString
-      value: DefaultEndpointsProtocol=https;AccountName=azurecloudh2;AccountKey=u1lQdzgk2xdVecx6FDgQWQOm5oxrSwyxU1Ej/fh6DPcZjDwOlUhlqXxrQ/Alq4pHrzyEDJWkd7WvmncF6EcRlg==;EndpointSuffix=core.windows.net
+      value: DefaultEndpointsProtocol=https;AccountName=azure11;AccountKey=DJ8ef4dwz1/dLoDMDoLP6xcpL95Ca9+rPGbc50AL4LDuDDfSETCEXw13fJ4g1WiEU45lVNuyMN9FqmKC2t42Uw==;EndpointSuffix=core.windows.net
       objectReference: {fileID: 0}
     - target: {fileID: 9157887926618156860, guid: 375369510d9c8fd428ed10a1f6bef485,
         type: 3}
@@ -349,12 +349,12 @@ PrefabInstance:
     - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
         type: 3}
       propertyPath: apiKey
-      value: 1b111d65b7494ec7acf37509bfdcdfaa
+      value: c3ac395c003044c3917fc0ae64bf9e33
       objectReference: {fileID: 0}
     - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
         type: 3}
       propertyPath: projectId
-      value: 004db204-c36d-4f3e-8168-c52595c9973f
+      value: 9a26192c-e4b2-4d26-8a1b-db49dcdd782d
       objectReference: {fileID: 0}
     - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
         type: 3}
@@ -364,7 +364,7 @@ PrefabInstance:
     - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
         type: 3}
       propertyPath: azureResourceGroupName
-      value: azurecloudh2
+      value: Azure_1
       objectReference: {fileID: 0}
     - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
         type: 3}
@@ -374,7 +374,7 @@ PrefabInstance:
     - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
         type: 3}
       propertyPath: cognitiveServiceResourceName
-      value: Azure_Cloud_H2
+      value: Azure_1
       objectReference: {fileID: 0}
     - target: {fileID: 5042052743728363742, guid: 7b590829eaeacff49b45f5a93cfff72d,
         type: 3}
@@ -608,6 +608,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ChatBotManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 6296744906275842448, guid: fcfab8afea0b2124e81f44b8b0e27ae2,
+        type: 3}
+      propertyPath: directLineSecretKey
+      value: MzhpLKrycPc.YAAMpOjRgJXKz_CcJ02RbCOVrLYm9DtYnXrL1BRSB98
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcfab8afea0b2124e81f44b8b0e27ae2, type: 3}
