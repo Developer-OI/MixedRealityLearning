@@ -189,19 +189,23 @@ namespace MRTK.Tutorials.AzureCloudServices.Scripts.Managers
         public async Task<ImagePredictionResult> DetectImage(byte[] image, string publishedName)
         {
             // https://docs.microsoft.com/en-us/rest/api/cognitiveservices/customvisionprediction/classifyimage/classifyimage
-
+            Debug.Log("1");
             using (var client = new HttpClient())
             {
+                Debug.Log("2");
                 client.DefaultRequestHeaders.Add("Prediction-Key", apiKey);
-                var result = await client.PostAsync(
-                    $"{resourceBaseEndpoint}/customvision/v3.0/prediction/{projectId}/classify/iterations/{publishedName}/image",
+                Debug.Log("3");
+                var result = await client.PostAsync(                    
+                $"{resourceBaseEndpoint}/customvision/v3.0/prediction/{projectId}/classify/iterations/{publishedName}/image",
                     new ByteArrayContent(image));
-
+                Debug.Log(result);
+                Debug.Log(image);
                 if (!result.IsSuccessStatusCode)
                 {
+                    Debug.Log("5");
                     throw new Exception(result.ReasonPhrase);
                 }
-
+                Debug.Log("6");
                 var body = await result.Content.ReadAsStringAsync();
                 return JsonConvert.DeserializeObject<ImagePredictionResult>(body);
             }

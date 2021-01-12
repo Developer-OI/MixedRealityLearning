@@ -235,7 +235,7 @@ PrefabInstance:
     - target: {fileID: 9157887926618156860, guid: 375369510d9c8fd428ed10a1f6bef485,
         type: 3}
       propertyPath: connectionString
-      value: DefaultEndpointsProtocol=https;AccountName=azurecloudhl2test;AccountKey=zWK3hgG9p0Vf5XZxbBK7qU8xM6Eeie2v71oEMGCX8Kk14yTIknFiN5m2Ucc6qvoAszy2CsMDYr1Lig3Jw+1HJA==;EndpointSuffix=core.windows.net
+      value: DefaultEndpointsProtocol=https;AccountName=azurecloudhl2test;AccountKey=v4haUNkoS41khqow2AHGOyww0MxWsOYR0oSZlSR/nz/EX5T0RSt2/wGlJ/+A6EbzPOduqo842jCW7RrF9SRssg==;EndpointSuffix=core.windows.net
       objectReference: {fileID: 0}
     - target: {fileID: 9157887926618156860, guid: 375369510d9c8fd428ed10a1f6bef485,
         type: 3}
@@ -506,7 +506,7 @@ PrefabInstance:
     - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
         type: 3}
       propertyPath: apiKey
-      value: 0837b8901b3a420984a35fcea09ede84
+      value: 5d6d4528463e462ebd287e051d976234
       objectReference: {fileID: 0}
     - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
         type: 3}

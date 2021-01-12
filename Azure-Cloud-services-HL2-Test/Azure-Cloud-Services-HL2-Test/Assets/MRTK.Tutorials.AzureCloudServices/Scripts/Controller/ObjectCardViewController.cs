@@ -130,14 +130,21 @@ namespace MRTK.Tutorials.AzureCloudServices.Scripts.Controller
             {
                 await Task.Delay(1000);
                 var image = await sceneController.TakePhoto();
+     
                 try
                 {
+                    
                     var response = await sceneController.ObjectDetectionManager.DetectImage(image, sceneController.CurrentProject.CustomVisionPublishedModelName);
+                   
                     var prediction = response.Predictions.SingleOrDefault(p => p.TagId == trackedObject.CustomVisionTagId);
-                    if(prediction != null && prediction.Probability > 0.75d)
+                   
+                    if (prediction != null && prediction.Probability > 0.75d)
                     {
+                   
                         objectDetectedWithComputerVision = true;
+
                         isSearchingWithComputerVision = false;
+                    
                         messageLabel.text = "Object found!";
                     }
                 }
