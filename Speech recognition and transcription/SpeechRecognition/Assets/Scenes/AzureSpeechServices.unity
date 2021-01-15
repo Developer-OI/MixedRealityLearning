@@ -1025,7 +1025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abf44f7da64451b4796d24a0f6e6c40b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  luisEndpoint: https://mrtk-language-understanding.cognitiveservices.azure.com/luis/prediction/v3.0/apps/f4d6006c-4c01-418d-8ee4-3e32d68be572/slots/production/predict?subscription-key=8001f8f109814128b9239b9efd84c01c&verbose=true&show-all-intents=true&log=true&query=
+  luisEndpoint: https://azure-speech.cognitiveservices.azure.com/luis/prediction/v3.0/apps/739585db-2d74-48a7-9300-6821e7da32a1/slots/production/predict?subscription-key=13c716a0156d41e59a7163c56683a5f2&verbose=true&show-all-intents=true&log=true&query=
   HintsButton: {fileID: 334214146}
   ResetButton: {fileID: 334214145}
   LaunchButton: {fileID: 334214144}

@@ -180,9 +180,8 @@ public class LunarcomIntentRecognizer : MonoBehaviour
                 //string actionToTake = null;
                 //string targetButton = null;
 
-                string actionToTake = aQuery.prediction.entities.Action[0];
-                string targetButton = aQuery.prediction.entities.Target[0];
-
+                string actionToTake = aQuery.prediction.entities.Action[0];//Save action intent
+                string targetButton = aQuery.prediction.entities.Target[0];//Save target intent
 
                 //foreach (var pair in entityDic)
                 //{
