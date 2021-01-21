@@ -266,12 +266,12 @@ PrefabInstance:
     - target: {fileID: 3498052043663173285, guid: 027a280457906a64aa8223f89eaac773,
         type: 3}
       propertyPath: spatialAnchorsAccountId
-      value: b863c64a-be36-41d0-8388-84a3516c8680
+      value: 1bc386df-1a32-494c-9d2f-7d373f3446fa
       objectReference: {fileID: 0}
     - target: {fileID: 3498052043663173285, guid: 027a280457906a64aa8223f89eaac773,
         type: 3}
       propertyPath: spatialAnchorsAccountKey
-      value: FpEaeJBOO5zdLd2LCjJ15/rVO+3ShxJo9oGxbDLHk38=
+      value: 2oTsrkXZvROuMb7HIv7WTrVd7nSBzVTuEydR9CV4iwk=
       objectReference: {fileID: 0}
     - target: {fileID: 5208281402898077636, guid: 027a280457906a64aa8223f89eaac773,
         type: 3}
@@ -291,7 +291,7 @@ PrefabInstance:
     - target: {fileID: 6931196017462994533, guid: 027a280457906a64aa8223f89eaac773,
         type: 3}
       propertyPath: publicSharingPin
-      value: 1982734901848
+      value: 1982734901850
       objectReference: {fileID: 0}
     - target: {fileID: 6931196017462994534, guid: 027a280457906a64aa8223f89eaac773,
         type: 3}
