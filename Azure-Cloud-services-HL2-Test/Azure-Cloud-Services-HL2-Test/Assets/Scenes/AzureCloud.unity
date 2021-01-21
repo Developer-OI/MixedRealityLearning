@@ -196,12 +196,12 @@ PrefabInstance:
     - target: {fileID: 4957614524028121935, guid: 24fbc619b06f41240ab10f637cde6e17,
         type: 3}
       propertyPath: spatialAnchorsAccountId
-      value: 40fdb8e4-d992-4211-9131-0ed0426ea635
+      value: 1bc386df-1a32-494c-9d2f-7d373f3446fa
       objectReference: {fileID: 0}
     - target: {fileID: 4957614524028121935, guid: 24fbc619b06f41240ab10f637cde6e17,
         type: 3}
       propertyPath: spatialAnchorsAccountKey
-      value: Hq88WVE3uff/G1YppmlL4EU/hsCbZdTCO1VbFUE6CsQ=
+      value: 2oTsrkXZvROuMb7HIv7WTrVd7nSBzVTuEydR9CV4iwk=
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24fbc619b06f41240ab10f637cde6e17, type: 3}
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83d9acc7968244a8886f3af591305bcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeProfile: {fileID: 11400000, guid: c9aacd2e418d5c949a050f85418dcc3d, type: 2}
+  activeProfile: {fileID: 11400000, guid: 7e7c962b9eb9dfa44993d5b2f2576752, type: 2}
 --- !u!4 &331273795
 Transform:
   m_ObjectHideFlags: 0
@@ -462,7 +462,6 @@ GameObject:
   - component: {fileID: 963194226}
   - component: {fileID: 963194231}
   - component: {fileID: 963194230}
-  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -487,7 +486,7 @@ Camera:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -535,29 +534,6 @@ Transform:
   m_Father: {fileID: 1553001198}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &963194229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf98dd1206224111a38765365e98e207, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lockCursorWhenFocusLocked: 1
-  setCursorInvisibleWhenFocusLocked: 0
-  maxGazeCollisionDistance: 10
-  raycastLayerMasks:
-  - serializedVersion: 2
-    m_Bits: 4294967291
-  stabilizer:
-    storedStabilitySamples: 60
-  gazeTransform: {fileID: 0}
-  minHeadVelocityThreshold: 0.5
-  maxHeadVelocityThreshold: 2
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -910,6 +886,11 @@ PrefabInstance:
         type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 3574452562141510059, guid: 24d9589008999d841a58d71c89995210,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3574452562141510059, guid: 24d9589008999d841a58d71c89995210,
         type: 3}

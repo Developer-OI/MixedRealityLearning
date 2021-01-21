@@ -126,7 +126,7 @@ PlayerSettings:
     Others: 1
   bundleVersion: 0.1
   preloadedAssets:
-  - {fileID: -3918439152515373027, guid: e70ed4e82a337594c9c6903b62ecb2ad, type: 2}
+  - {fileID: 0}
   - {fileID: -3170360055441390497, guid: ec389739adc7ebb49a78831c82b13abb, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -334,6 +334,10 @@ PlayerSettings:
     m_Devices:
     - Oculus
     - OpenVR
+  - m_BuildTarget: Windows Store Apps
+    m_Enabled: 1
+    m_Devices:
+    - WindowsMR
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
