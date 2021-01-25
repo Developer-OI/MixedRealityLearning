@@ -187,6 +187,16 @@ PrefabInstance:
       propertyPath: dataManager
       value: 
       objectReference: {fileID: 1902974937}
+    - target: {fileID: 5993036792687384025, guid: 4564ebd62ac88ac46b521038820b6f31,
+        type: 3}
+      propertyPath: anchorManager
+      value: 
+      objectReference: {fileID: 2006411565}
+    - target: {fileID: 5993036792687384025, guid: 4564ebd62ac88ac46b521038820b6f31,
+        type: 3}
+      propertyPath: objectDetectionManager
+      value: 
+      objectReference: {fileID: 1859098770}
     - target: {fileID: 6858734634425796935, guid: 4564ebd62ac88ac46b521038820b6f31,
         type: 3}
       propertyPath: m_RootOrder
@@ -360,8 +370,8 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194231}
-  - component: {fileID: 963194229}
   - component: {fileID: 963194230}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -727,6 +737,117 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1859098769
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
+        type: 3}
+      propertyPath: apiKey
+      value: d0c3312acb9a4053b6a028ac6f89304d
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
+        type: 3}
+      propertyPath: projectId
+      value: edc44338-5d14-4c70-8bd5-9664b75df27f
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
+        type: 3}
+      propertyPath: resourceBaseEndpoint
+      value: https://azurecloudcustomvi-prediction.cognitiveservices.azure.com/
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
+        type: 3}
+      propertyPath: azureResourceGroupName
+      value: Azure-Cloud
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
+        type: 3}
+      propertyPath: azureResourceSubscriptionId
+      value: afa89f5d-ab5b-4c24-b5f3-36ae095304e4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
+        type: 3}
+      propertyPath: cognitiveServiceResourceName
+      value: 'AzureCloudCustomVi-Prediction '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042052743728363742, guid: 7b590829eaeacff49b45f5a93cfff72d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042052743728363742, guid: 7b590829eaeacff49b45f5a93cfff72d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042052743728363742, guid: 7b590829eaeacff49b45f5a93cfff72d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042052743728363742, guid: 7b590829eaeacff49b45f5a93cfff72d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042052743728363742, guid: 7b590829eaeacff49b45f5a93cfff72d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042052743728363742, guid: 7b590829eaeacff49b45f5a93cfff72d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042052743728363742, guid: 7b590829eaeacff49b45f5a93cfff72d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042052743728363742, guid: 7b590829eaeacff49b45f5a93cfff72d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042052743728363742, guid: 7b590829eaeacff49b45f5a93cfff72d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042052743728363742, guid: 7b590829eaeacff49b45f5a93cfff72d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042052743728363742, guid: 7b590829eaeacff49b45f5a93cfff72d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042052743728363743, guid: 7b590829eaeacff49b45f5a93cfff72d,
+        type: 3}
+      propertyPath: m_Name
+      value: ObjectDetectionManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b590829eaeacff49b45f5a93cfff72d, type: 3}
+--- !u!114 &1859098770 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4418451206035789518, guid: 7b590829eaeacff49b45f5a93cfff72d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1859098769}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 607d75e78831c9c4ab39326fc9ed0168, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1902974936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -796,6 +917,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9157887926618156860, guid: 375369510d9c8fd428ed10a1f6bef485,
         type: 3}
+      propertyPath: connectionString
+      value: DefaultEndpointsProtocol=https;AccountName=azurecloudstorageasa;AccountKey=mVoDRsx8DOV2+e1QgAbS+vyDeNkAHiNW4smXyZV3Uv/dhyXpI2ZwQJv2Ixpel972QgXmb0ZsMpcdATegCyFH6Q==;EndpointSuffix=core.windows.net
+      objectReference: {fileID: 0}
+    - target: {fileID: 9157887926618156860, guid: 375369510d9c8fd428ed10a1f6bef485,
+        type: 3}
       propertyPath: onDataManagerReady.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 664438825}
@@ -816,5 +942,106 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b616492ed3f36944f8625d4a20da70f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &2006411564
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 828838689807954120, guid: 24fbc619b06f41240ab10f637cde6e17,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 828838689807954120, guid: 24fbc619b06f41240ab10f637cde6e17,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 828838689807954120, guid: 24fbc619b06f41240ab10f637cde6e17,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 828838689807954120, guid: 24fbc619b06f41240ab10f637cde6e17,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 828838689807954120, guid: 24fbc619b06f41240ab10f637cde6e17,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 828838689807954120, guid: 24fbc619b06f41240ab10f637cde6e17,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 828838689807954120, guid: 24fbc619b06f41240ab10f637cde6e17,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 828838689807954120, guid: 24fbc619b06f41240ab10f637cde6e17,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 828838689807954120, guid: 24fbc619b06f41240ab10f637cde6e17,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 828838689807954120, guid: 24fbc619b06f41240ab10f637cde6e17,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 828838689807954120, guid: 24fbc619b06f41240ab10f637cde6e17,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 828838689807954127, guid: 24fbc619b06f41240ab10f637cde6e17,
+        type: 3}
+      propertyPath: m_Name
+      value: AnchorManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957614524028121935, guid: 24fbc619b06f41240ab10f637cde6e17,
+        type: 3}
+      propertyPath: logLevel
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957614524028121935, guid: 24fbc619b06f41240ab10f637cde6e17,
+        type: 3}
+      propertyPath: spatialAnchorsAccountId
+      value: 592564dc-46ec-4649-ab60-179d960f6b04
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957614524028121935, guid: 24fbc619b06f41240ab10f637cde6e17,
+        type: 3}
+      propertyPath: spatialAnchorsAccountKey
+      value: Nzd6Fs1L7IEWwMcSZCHmi6pUs/R9zDFHinIu1x7lDTY=
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957614524028121935, guid: 24fbc619b06f41240ab10f637cde6e17,
+        type: 3}
+      propertyPath: spatialAnchorsAccountDomain
+      value: mixedreality.azure.com
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24fbc619b06f41240ab10f637cde6e17, type: 3}
+--- !u!114 &2006411565 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 840231123, guid: 24fbc619b06f41240ab10f637cde6e17,
+    type: 3}
+  m_PrefabInstance: {fileID: 2006411564}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0249a1cd50481fe4fb4f118750813736, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
