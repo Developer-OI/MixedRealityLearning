@@ -410,12 +410,12 @@ PrefabInstance:
     - target: {fileID: 2053986285137871049, guid: eee6a024b4a153e48b88665b46a6c40a,
         type: 3}
       propertyPath: spatialAnchorsAccountId
-      value: 1bc386df-1a32-494c-9d2f-7d373f3446fa
+      value: 592564dc-46ec-4649-ab60-179d960f6b04
       objectReference: {fileID: 0}
     - target: {fileID: 2053986285137871049, guid: eee6a024b4a153e48b88665b46a6c40a,
         type: 3}
       propertyPath: spatialAnchorsAccountKey
-      value: 2oTsrkXZvROuMb7HIv7WTrVd7nSBzVTuEydR9CV4iwk=
+      value: Nzd6Fs1L7IEWwMcSZCHmi6pUs/R9zDFHinIu1x7lDTY=
       objectReference: {fileID: 0}
     - target: {fileID: 2053986285137871049, guid: eee6a024b4a153e48b88665b46a6c40a,
         type: 3}

@@ -192,6 +192,7 @@ public class AnchorModuleScript : MonoBehaviour
 
     public void RemoveLocalAnchor(GameObject theObject)
     {
+#if !(UNITY_ANDROID || UNITY_IOS)
         Debug.Log("\nAnchorModuleScript.RemoveLocalAnchor()");
 
         // Notify AnchorFeedbackScript
@@ -207,6 +208,11 @@ public class AnchorModuleScript : MonoBehaviour
         {
             Debug.Log("Attempt to delete local anchor failed");
         }
+#elif UNITY_ANDROID
+
+ Debug.Log("\nAnchorModuleScript.RemoveLocalAnchor()");
+
+#endif
     }
 
     public void FindAzureAnchor(string id = "")
@@ -351,9 +357,9 @@ public class AnchorModuleScript : MonoBehaviour
 
         StartCoroutine(GetSharedAzureAnchorIDCoroutine(publicSharingPin));
     }
-    #endregion
+#endregion
 
-    #region Event Handlers
+#region Event Handlers
     private void CloudManager_AnchorLocated(object sender, AnchorLocatedEventArgs args)
     {
         QueueOnUpdate(new Action(() => Debug.Log($"Anchor recognized as a possible Azure anchor")));
@@ -412,9 +418,9 @@ public class AnchorModuleScript : MonoBehaviour
             QueueOnUpdate(new Action(() => Debug.Log($"Attempt to locate Anchor with ID '{args.Identifier}' failed, locate anchor status was not 'Located' but '{args.Status}'")));
         }
     }
-    #endregion
+#endregion
 
-    #region Internal Methods and Coroutines
+#region Internal Methods and Coroutines
     private void QueueOnUpdate(Action updateAction)
     {
         lock (dispatchQueue)
@@ -456,9 +462,9 @@ public class AnchorModuleScript : MonoBehaviour
             }
         }
     }
-    #endregion
+#endregion
 
-    #region Public Events
+#region Public Events
     public delegate void StartASASessionDelegate();
     public event StartASASessionDelegate OnStartASASession;
 
@@ -484,5 +490,5 @@ public class AnchorModuleScript : MonoBehaviour
 
     public delegate void DeleteASAAnchorDelegate();
     public event DeleteASAAnchorDelegate OnDeleteASAAnchor;
-    #endregion
+#endregion
 }
