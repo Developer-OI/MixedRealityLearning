@@ -954,7 +954,7 @@ PrefabInstance:
     - target: {fileID: 9157887926618156860, guid: 375369510d9c8fd428ed10a1f6bef485,
         type: 3}
       propertyPath: connectionString
-      value: DefaultEndpointsProtocol=https;AccountName=azurecloudstorageaccoun;AccountKey=N8J3JZixDtbAD4sWV7n2/XFtQK4VON9kVifMo1UFhZNmy8pKmJA5bTwgAZ5fZoH03RsGqnahTqCFZSIxQgPDWA==;EndpointSuffix=core.windows.net
+      value: DefaultEndpointsProtocol=https;AccountName=azurecloudasa;AccountKey=RxvCnlvCm7QgElBpW7/8/327RpcX+6EL4ru65WQWPFlOr0KpnCLgFNQDMYZnehUA9y5TGmnIhj5Dww1SmrNXgA==;EndpointSuffix=core.windows.net
       objectReference: {fileID: 0}
     - target: {fileID: 9157887926618156860, guid: 375369510d9c8fd428ed10a1f6bef485,
         type: 3}
