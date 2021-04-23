@@ -38,6 +38,10 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
+    "com.unity.modules.xr": "1.0.0",
+    "com.microsoft.azure.spatial-anchors-sdk.android": "file:MixedReality\/com.microsoft.azure.spatial-anchors-sdk.android-2.9.0.tgz",
+    "com.microsoft.azure.spatial-anchors-sdk.core": "file:MixedReality\/com.microsoft.azure.spatial-anchors-sdk.core-2.9.0.tgz",
+    "com.microsoft.azure.spatial-anchors-sdk.ios": "file:MixedReality\/com.microsoft.azure.spatial-anchors-sdk.ios-2.9.0.tgz",
+    "com.microsoft.azure.spatial-anchors-sdk.windows": "file:MixedReality\/com.microsoft.azure.spatial-anchors-sdk.windows-2.9.0.tgz"
   }
 }
