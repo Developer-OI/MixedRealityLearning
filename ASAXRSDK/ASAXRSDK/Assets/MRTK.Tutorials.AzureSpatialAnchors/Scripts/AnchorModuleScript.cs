@@ -125,7 +125,7 @@ public class AnchorModuleScript : MonoBehaviour
         CloudSpatialAnchor localCloudAnchor = new CloudSpatialAnchor();
 
         // Now we set the local cloud anchor's position to the native XR anchor's position
-        localCloudAnchor.LocalAnchor = theObject.FindNativeAnchor().GetPointer();
+        localCloudAnchor.LocalAnchor = await theObject.FindNativeAnchor().GetPointer();         // Verify
 
         // Check to see if we got the local XR anchor pointer
         if (localCloudAnchor.LocalAnchor == IntPtr.Zero)
@@ -393,7 +393,7 @@ public class AnchorModuleScript : MonoBehaviour
                 {
                     Debug.Log("Local anchor position successfully set to Azure anchor position");
 
-                    gameObject.GetComponent<UnityEngine.XR.WSA.WorldAnchor>().SetNativeSpatialAnchorPtr(currentCloudAnchor.LocalAnchor);
+                //    gameObject.GetComponent<UnityEngine.XR.WSA.WorldAnchor>().SetNativeSpatialAnchorPtr(currentCloudAnchor.LocalAnchor);
                 }
 
 #elif UNITY_ANDROID || UNITY_IOS
