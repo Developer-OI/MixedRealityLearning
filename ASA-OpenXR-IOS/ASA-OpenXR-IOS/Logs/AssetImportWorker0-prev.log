@@ -1,0 +1,410 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 16315 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Admin/Documents/GitHub/MixedRealityLearning/ASA-OpenXR-IOS/ASA-OpenXR-IOS
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59605
+Successfully changed project path to: C:/Users/Admin/Documents/GitHub/MixedRealityLearning/ASA-OpenXR-IOS/ASA-OpenXR-IOS
+C:/Users/Admin/Documents/GitHub/MixedRealityLearning/ASA-OpenXR-IOS/ASA-OpenXR-IOS
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 68.52 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Admin/Documents/GitHub/MixedRealityLearning/ASA-OpenXR-IOS/ASA-OpenXR-IOS/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 710 (ID=0x128b)
+    Vendor:   
+    VRAM:     2007 MB
+    Driver:   27.21.14.5671
+Shader 'Mixed Reality Toolkit/HandTriangles': fallback shader 'Mixed Reality Toolkit/Standard' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001754 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 56.53 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.183 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005963 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 56.19 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Admin\Documents\GitHub\MixedRealityLearning\ASA-OpenXR-IOS\ASA-OpenXR-IOS\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@72f595076d31-1622177648071\SDK\Features\UX\Scripts\BoundsControl\Visuals\ProximityEffect'.
+  at System.IO.__Error.WinIOError (System.Int32 errorCode, System.String maybeFullPath) [0x000f7] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].HandleError (System.Int32 hr, System.String path) [0x00006] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].CommonInit () [0x00054] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource]..ctor (System.String path, System.String originalUserPath, System.String searchPattern, System.IO.SearchOption searchOption, System.IO.SearchResultHandler`1[TSource] resultHandler, System.Boolean checkHost) [0x000d6] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableFactory.CreateFileNameIterator (System.String path, System.String originalUserPath, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x00009] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFileDirectoryNames (System.String path, System.String userPathOriginal, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern) [0x0001c] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.DirectoryInfo.GetFiles (System.String searchPattern) [0x0000e] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x00002] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.DirectoryInfo.GetFiles (System.String searchPattern, System.IO.SearchOption searchOption) [0x00017] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFiles(string,System.IO.SearchOption)
+  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities.FindShaderFolderInPackage () [0x0004c] in C:\Users\Admin\Documents\GitHub\MixedRealityLearning\ASA-OpenXR-IOS\ASA-OpenXR-IOS\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@bf3e050f48d1-1622177637304\EditorUtilities\OnLoadUtilities.cs:152 
+  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities.EnsureShaders (System.Boolean bypassIgnore) [0x00000] in C:\Users\Admin\Documents\GitHub\MixedRealityLearning\ASA-OpenXR-IOS\ASA-OpenXR-IOS\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@bf3e050f48d1-1622177637304\EditorUtilities\OnLoadUtilities.cs:42 
+  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities..cctor () [0x00000] in C:\Users\Admin\Documents\GitHub\MixedRealityLearning\ASA-OpenXR-IOS\ASA-OpenXR-IOS\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@bf3e050f48d1-1622177637304\EditorUtilities\OnLoadUtilities.cs:23 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[XR] [XR Mesh Provider]: RegisterLifecycleProvider.
+[XR] [XR Input Provider]: RegisterLifecycleProvider.
+[XR] Error loading subsystem: Display (1) (header mismatch?)
+Mono: successfully reloaded assembly
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:AllFeaturesEnabled (string[],UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:186)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:247)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:214)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXR Package Settings.asset
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:AllFeaturesEnabled (string[],UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:186)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:247)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:214)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:AllFeaturesEnabled (string[],UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:186)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:247)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:214)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXR Package Settings.asset
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:AllFeaturesEnabled (string[],UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:186)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:247)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:214)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:AllFeaturesEnabled (string[],UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:186)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:247)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:214)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXR Package Settings.asset
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:AllFeaturesEnabled (string[],UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:186)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:247)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:214)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:AllFeaturesEnabled (string[],UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:186)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:247)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:214)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXR Package Settings.asset
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:AllFeaturesEnabled (string[],UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:186)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:247)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:214)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:AllFeaturesEnabled (string[],UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:186)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:247)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:214)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXR Package Settings.asset
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:AllFeaturesEnabled (string[],UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:186)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:247)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:214)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:AllFeaturesEnabled (string[],UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:186)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:247)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:214)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXR Package Settings.asset
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:AllFeaturesEnabled (string[],UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:186)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:247)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:214)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.0/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+- Completed reload, in  1.552 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Mixed Reality Toolkit/HandTriangles': fallback shader 'Mixed Reality Toolkit/Standard' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3197 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.0 MB.
+System memory in use after: 133.7 MB.
+
+Unloading 114 unused Assets to reduce memory usage. Loaded Objects now: 3666.
+Total: 3.790900 ms (FindLiveObjects: 0.517200 ms CreateObjectMapping: 0.097900 ms MarkObjects: 2.873000 ms  DeleteObjects: 0.301500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/MRTK.Tutorials.GettingStarted/Prefabs/PressableRoundButton.prefab
+  artifactKey: Guid(e157d31e347240046bc22a96e5cc32be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK.Tutorials.GettingStarted/Prefabs/PressableRoundButton.prefab using Guid(e157d31e347240046bc22a96e5cc32be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68d2e842e1cca640a7ad8dff7258cd7') in 0.152463 seconds
+  Import took 0.158280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Models/Chevron.fbx
+  artifactKey: Guid(26b463364a211e146ba31bc5ea3f7e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK.Tutorials.GettingStarted/Models/Chevron.fbx using Guid(26b463364a211e146ba31bc5ea3f7e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aed186f1cb62f112a10735b279917e8') in 0.108166 seconds
+  Import took 0.113273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Prefabs/RoverAssembly.prefab
+  artifactKey: Guid(00d62673906fb0c4cb62b4cfec8e04cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK.Tutorials.GettingStarted/Prefabs/RoverAssembly.prefab using Guid(00d62673906fb0c4cb62b4cfec8e04cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fbd3e8b03f06842d239a42b14c85db') in 0.042080 seconds
+  Import took 0.048089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Prefabs/Chevron.prefab
+  artifactKey: Guid(eb65bb040d2dce144a90d568ed97f32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK.Tutorials.GettingStarted/Prefabs/Chevron.prefab using Guid(eb65bb040d2dce144a90d568ed97f32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3851626e45e2104b490a6f548268315a') in 0.019314 seconds
+  Import took 0.024459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Prefabs/Table.prefab
+  artifactKey: Guid(ad8dde9b887f5774d95a09aef04f5f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK.Tutorials.GettingStarted/Prefabs/Table.prefab using Guid(ad8dde9b887f5774d95a09aef04f5f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5e79780899224b448dbe93276d705a') in 0.034492 seconds
+  Import took 0.040831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Models/MarsCuriosityRover_Modified.fbx
+  artifactKey: Guid(793066ba8951d074bb883f1b56614842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK.Tutorials.GettingStarted/Models/MarsCuriosityRover_Modified.fbx using Guid(793066ba8951d074bb883f1b56614842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01071b592314c0800c1a70a63a8ee16b') in 0.408688 seconds
+  Import took 0.414869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Prefabs/Cube.prefab
+  artifactKey: Guid(fb1b600dc94c3954099cc101e25ee744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK.Tutorials.GettingStarted/Prefabs/Cube.prefab using Guid(fb1b600dc94c3954099cc101e25ee744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dea41220abc4f0dee41e577bcfed52b') in 0.016122 seconds
+  Import took 0.020968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Models/Model_PushButton.fbx
+  artifactKey: Guid(5308c0eb5c6ed4647b3797671dc2e5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK.Tutorials.GettingStarted/Models/Model_PushButton.fbx using Guid(5308c0eb5c6ed4647b3797671dc2e5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e76094bf05a291ac15091ecb81f1fb9') in 0.025940 seconds
+  Import took 0.030814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Models/Hello_World.fbx
+  artifactKey: Guid(a06ec87708c8671438628592ef920391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK.Tutorials.GettingStarted/Models/Hello_World.fbx using Guid(a06ec87708c8671438628592ef920391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59feca4fefa71cbe47d5d9c5984f39e2') in 0.094164 seconds
+  Import took 0.099373 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006871 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Admin\Documents\GitHub\MixedRealityLearning\ASA-OpenXR-IOS\ASA-OpenXR-IOS\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@72f595076d31-1622177648071\SDK\Features\UX\Scripts\BoundsControl\Visuals\ProximityEffect'.
+  at System.IO.__Error.WinIOError (System.Int32 errorCode, System.String maybeFullPath) [0x000f7] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].HandleError (System.Int32 hr, System.String path) [0x00006] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].CommonInit () [0x00054] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource]..ctor (System.String path, System.String originalUserPath, System.String searchPattern, System.IO.SearchOption searchOption, System.IO.SearchResultHandler`1[TSource] resultHandler, System.Boolean checkHost) [0x000d6] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableFactory.CreateFileNameIterator (System.String path, System.String originalUserPath, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x00009] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFileDirectoryNames (System.String path, System.String userPathOriginal, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern) [0x0001c] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.DirectoryInfo.GetFiles (System.String searchPattern) [0x0000e] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x00002] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.DirectoryInfo.GetFiles (System.String searchPattern, System.IO.SearchOption searchOption) [0x00017] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFiles(string,System.IO.SearchOption)
+  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities.FindShaderFolderInPackage () [0x0004c] in C:\Users\Admin\Documents\GitHub\MixedRealityLearning\ASA-OpenXR-IOS\ASA-OpenXR-IOS\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@bf3e050f48d1-1622177637304\EditorUtilities\OnLoadUtilities.cs:152 
+  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities.EnsureShaders (System.Boolean bypassIgnore) [0x00000] in C:\Users\Admin\Documents\GitHub\MixedRealityLearning\ASA-OpenXR-IOS\ASA-OpenXR-IOS\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@bf3e050f48d1-1622177637304\EditorUtilities\OnLoadUtilities.cs:42 
+  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities..cctor () [0x00000] in C:\Users\Admin\Documents\GitHub\MixedRealityLearning\ASA-OpenXR-IOS\ASA-OpenXR-IOS\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@bf3e050f48d1-1622177637304\EditorUtilities\OnLoadUtilities.cs:23 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@72f595076d31-1622177648071/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@72f595076d31-1622177648071/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@72f595076d31-1622177648071/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.163 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Shader 'Mixed Reality Toolkit/HandTriangles': fallback shader 'Mixed Reality Toolkit/Standard' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.0 MB.
+System memory in use after: 131.9 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 3713.
+Total: 2.753900 ms (FindLiveObjects: 0.531000 ms CreateObjectMapping: 0.092300 ms MarkObjects: 2.003300 ms  DeleteObjects: 0.126200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
